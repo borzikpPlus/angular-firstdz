@@ -1,4 +1,13 @@
 <h2>Личные данные</h2>
-<p>ФИО: {{ fio }}</p>
-<p>Телефон: {{ phone }}</p>
-<p>Город: {{ city }}</p>
+
+<p [ngStyle]="{'color': fioColor, 'font-size': fioSize, 'font-weight': 'bold'}">
+  ФИО: {{ fio }}
+</p>
+
+<p [ngClass]="{'phone-style': true}">
+  Телефон: {{ phone }}
+</p>
+
+<p [ngClass]="{'capital': isMoscow, 'other-city': !isMoscow}">
+  Город: {{ city }}
+</p>

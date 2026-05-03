@@ -6,3 +6,19 @@ p {
   font-size: 16px;
   margin: 5px 0;
 }
+
+.phone-style {
+  color: red;
+  font-style: italic;
+}
+
+.capital {
+  color: white;
+  background-color: darkred;
+  padding: 5px;
+  display: inline-block;
+}
+
+.other-city {
+  color: gray;
+}

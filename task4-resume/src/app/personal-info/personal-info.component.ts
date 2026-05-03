@@ -9,4 +9,9 @@ export class PersonalInfoComponent {
   fio = 'Иванов Иван Иванович';
   phone = '+7 (999) 123-45-67';
   city = 'Москва';
+
+  fioColor = 'darkblue';
+  fioSize = '20px';
+
+  isMoscow = true;
 }
