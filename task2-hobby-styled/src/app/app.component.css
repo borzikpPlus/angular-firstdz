@@ -1,0 +1,12 @@
+h1 {
+  color: darkred;
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  color: navy;
+  font-size: 18px;
+  background-color: lightyellow;
+  padding: 15px;
+}
